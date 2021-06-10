@@ -1,0 +1,16 @@
+# 私有源
+source 'https://github.com/kaibuleite/xSpecs.git'
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'xAPI_Example' do
+  pod 'xAPI', :path => '../'
+
+  target 'xAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

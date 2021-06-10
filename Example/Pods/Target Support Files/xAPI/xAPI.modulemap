@@ -1,0 +1,6 @@
+framework module xAPI {
+  umbrella header "xAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
