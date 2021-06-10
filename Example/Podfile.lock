@@ -3,7 +3,7 @@ PODS:
   - xAlert (1.0.0):
     - xDefine
     - xExtension
-  - xAPI (1.0.1):
+  - xAPI (1.0.0):
     - Alamofire (~> 4.9.1)
     - xAlert
     - xDefine
@@ -32,11 +32,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   xAlert: ec2ba59f6ea83a9519ccae36ab28120cba0f3b86
-  xAPI: edc302bf2c787c32483ae83fa2d922ad83456350
+  xAPI: fb7aac3fbf5bb9b8142e1ff6e324fc3e2fa8a2ac
   xDefine: c49ba60b96d8a940028dfe98d9016c93894739d9
   xExtension: 3112075f98d10de63b99fbab7a7a800deac95793
   xWebBrowser: 24229411266f0a6934f4fe74939b4fb8f7b92137
 
-PODFILE CHECKSUM: aba5a7c3193bbb88db05dc349012e4f1725ea247
+PODFILE CHECKSUM: 1a271e0cea0b60672a6311c087116d3b5b3657a3
 
 COCOAPODS: 1.9.1
