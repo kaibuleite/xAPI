@@ -1,6 +1,6 @@
 {
   "name": "xAPI",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "Swift xAPI.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/kaibuleite/xAPI",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/kaibuleite/xAPI.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"

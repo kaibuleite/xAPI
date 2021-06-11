@@ -1,16 +1,16 @@
 PODS:
   - Alamofire (4.9.1)
-  - xAlert (1.0.0):
+  - xAlert (1.0.2):
     - xDefine
     - xExtension
-  - xAPI (1.0.0):
+  - xAPI (1.0.2):
     - Alamofire (~> 4.9.1)
     - xAlert
     - xDefine
     - xExtension
     - xWebBrowser
-  - xDefine (1.0.1)
-  - xExtension (1.0.1)
+  - xDefine (1.0.2)
+  - xExtension (1.0.6)
   - xWebBrowser (1.0.0)
 
 DEPENDENCIES:
@@ -22,7 +22,7 @@ SPEC REPOS:
     - xDefine
     - xExtension
     - xWebBrowser
-  trunk:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - Alamofire
 
 EXTERNAL SOURCES:
@@ -31,10 +31,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  xAlert: ec2ba59f6ea83a9519ccae36ab28120cba0f3b86
-  xAPI: fb7aac3fbf5bb9b8142e1ff6e324fc3e2fa8a2ac
-  xDefine: c49ba60b96d8a940028dfe98d9016c93894739d9
-  xExtension: 3112075f98d10de63b99fbab7a7a800deac95793
+  xAlert: c2e3e76fb99887be38adf84863acdfee3a54c810
+  xAPI: 834a011d52adf8a21239e33ff3a495a9a0dd2024
+  xDefine: 0df7b51c0e6edb71ca9fd667f728699d0a7a1b12
+  xExtension: d141e757ab53a7e0ab73de4cf652d43554c5f80d
   xWebBrowser: 24229411266f0a6934f4fe74939b4fb8f7b92137
 
 PODFILE CHECKSUM: 1a271e0cea0b60672a6311c087116d3b5b3657a3
