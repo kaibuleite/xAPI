@@ -1,24 +1,21 @@
 PODS:
   - Alamofire (4.9.1)
-  - xAlert (1.0.2):
-    - xDefine
-    - xExtension
-  - xAPI (1.0.2):
+  - xAPI (1.0.3):
     - Alamofire (~> 4.9.1)
-    - xAlert
     - xDefine
     - xExtension
     - xWebBrowser
   - xDefine (1.0.2)
-  - xExtension (1.0.6)
-  - xWebBrowser (1.0.0)
+  - xExtension (1.0.8):
+    - xDefine
+  - xWebBrowser (1.0.3):
+    - xExtension
 
 DEPENDENCIES:
   - xAPI (from `../`)
 
 SPEC REPOS:
   https://github.com/kaibuleite/xSpecs.git:
-    - xAlert
     - xDefine
     - xExtension
     - xWebBrowser
@@ -31,11 +28,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  xAlert: c2e3e76fb99887be38adf84863acdfee3a54c810
-  xAPI: 834a011d52adf8a21239e33ff3a495a9a0dd2024
+  xAPI: 3b20086203cc6f2efff2586d00ee328b7701faf2
   xDefine: 0df7b51c0e6edb71ca9fd667f728699d0a7a1b12
-  xExtension: d141e757ab53a7e0ab73de4cf652d43554c5f80d
-  xWebBrowser: 24229411266f0a6934f4fe74939b4fb8f7b92137
+  xExtension: f53765a72cdb40b8dd8106f37c426d7b4084ba05
+  xWebBrowser: 9e416da67774e0de70652c021d69d45ae8ca9f63
 
 PODFILE CHECKSUM: 1a271e0cea0b60672a6311c087116d3b5b3657a3
 

@@ -271,7 +271,6 @@
 				"${PODS_ROOT}/Target Support Files/Pods-xAPI_Example/Pods-xAPI_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/xAPI/xAPI.framework",
-				"${BUILT_PRODUCTS_DIR}/xAlert/xAlert.framework",
 				"${BUILT_PRODUCTS_DIR}/xDefine/xDefine.framework",
 				"${BUILT_PRODUCTS_DIR}/xExtension/xExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/xWebBrowser/xWebBrowser.framework",
@@ -280,7 +279,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xAPI.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xAlert.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xDefine.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xWebBrowser.framework",

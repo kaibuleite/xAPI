@@ -199,7 +199,6 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/xAPI/xAPI.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/xAlert/xAlert.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/xDefine/xDefine.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/xExtension/xExtension.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/xWebBrowser/xWebBrowser.framework"
@@ -207,7 +206,6 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/xAPI/xAPI.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/xAlert/xAlert.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/xDefine/xDefine.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/xExtension/xExtension.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/xWebBrowser/xWebBrowser.framework"

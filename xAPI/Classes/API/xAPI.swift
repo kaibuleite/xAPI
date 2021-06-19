@@ -10,7 +10,6 @@ import Alamofire
 import xDefine
 import xExtension
 import xWebBrowser
-import xAlert
 
 open class xAPI: NSObject {
     
@@ -63,8 +62,8 @@ open class xAPI: NSObject {
 
     // MARK: - Private Property
     /// 错误提示浏览器
-    lazy var errWeb : xWebBrowser = {
-        let web = xWebBrowser.quickInstancetype()
+    lazy var errWeb : xWebBrowserViewController = {
+        let web = xWebBrowserViewController.xDefaultViewController()
         return web
     }()
     /// 请求次数
@@ -202,7 +201,7 @@ open class xAPI: NSObject {
         if code == record.repConfig.successCode {
             // 状态正常
             if record.isAlertSuccessMsg {
-                xMessageAlert.display(message: msg)
+                msg.xAlertTip()
             }
             let result = dict[record.repConfig.dataKey]
             record.success?(result)
@@ -211,7 +210,7 @@ open class xAPI: NSObject {
         else {
             // 状态异常
             if record.isAlertFailureMsg {
-                xMessageAlert.display(message: msg)
+                msg.xAlertTip()
             }
             // 重新登录
             if code == record.repConfig.failureCode_UserTokenInvalid {

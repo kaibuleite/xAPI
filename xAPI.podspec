@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xAPI'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Swift xAPI.'
 
 # This description is used to generate tags and improve search results.
@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
   s.dependency 'Alamofire' , '~> 4.9.1'   # API代码基于4.x，5.x后代码变动太大
   s.dependency 'xDefine'
   s.dependency 'xExtension'
-  s.dependency 'xAlert'
   s.dependency 'xWebBrowser'
+  
 end
