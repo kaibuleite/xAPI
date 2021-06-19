@@ -1,5 +1,5 @@
 //
-//  xWebBrowser.swift
+//  xWebBrowserViewController.swift
 //  xWebBrowser
 //
 //  Created by Mac on 2021/6/10.
@@ -7,9 +7,10 @@
 
 import UIKit
 import WebKit
+import xExtension
 
 /// 方法详情可以参考 https://www.jianshu.com/p/747b7a1dfd06
-open class xWebBrowser: UIViewController {
+open class xWebBrowserViewController: UIViewController {
 
     // MARK: - Handle
     /// 点击关闭按钮回调
@@ -61,6 +62,14 @@ open class xWebBrowser: UIViewController {
     }
     
     // MARK: - Open Override Func
+    /// 实例化对象
+    /// - Returns: 实例化对象
+    open override class func xDefaultViewController() -> Self {
+        let bundle = Bundle.init(for: self.classForCoder())
+        let sb = UIStoryboard.init(name: "xWebBrowser", bundle: bundle)
+        let vc = sb.instantiateInitialViewController()
+        return vc as! Self
+    }
     open override func viewDidLoad() {
         super.viewDidLoad()
         // 基本配置
@@ -101,12 +110,6 @@ open class xWebBrowser: UIViewController {
     }
     
     // MARK: - Open Func
-    open class func quickInstancetype() -> Self {
-        let bundle = Bundle.init(for: self.classForCoder())
-        let sb = UIStoryboard.init(name: "xWebBrowser", bundle: bundle)
-        let vc = sb.instantiateInitialViewController()
-        return vc as! Self
-    }
     /// 更新Web配置
     open func updateWebConfig()
     {

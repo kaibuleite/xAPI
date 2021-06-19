@@ -1,31 +1,29 @@
 //
-//  xMessageAlert.swift
-//  xSDK
+//  String+xAlert.swift
+//  xExtension
 //
-//  Created by Mac on 2020/10/5.
+//  Created by Mac on 2021/6/19.
 //
 
-import UIKit
+import Foundation
 import xDefine
-import xExtension
 
-public class xMessageAlert: NSObject {
-
+extension String {
+    
     // MARK: - 显示提示标签
     /// 显示提示标签
-    public static func display(message : String,
-                               duration : Double = 2)
+    public func xAlertTip(duration : Double = 2)
     {
         DispatchQueue.main.async {
-            guard message.count > 0 else { return }
+            guard self.count > 0 else { return }
             // 移除旧控件
             guard let win = xKeyWindow else { return }
-            let tag = 124090    // 固定tag
+            let tag = 930421    // 固定tag
             win.viewWithTag(tag)?.removeFromSuperview()
             // 创建提示标签
             let lbl = UILabel.init()
             lbl.tag = tag
-            lbl.text = message
+            lbl.text = self
             lbl.numberOfLines = 0
             lbl.preferredMaxLayoutWidth = xScreenWidth - 100
             lbl.textAlignment = .center
@@ -45,7 +43,7 @@ public class xMessageAlert: NSObject {
             // 设置动画
             var time = duration
             if duration == 0 {
-                time = 2.0 + 0.05 * Double(message.count)
+                time = 2.0 + 0.05 * Double(self.count)
             }
             lbl.alpha = 1
             UIView.animate(withDuration: time, animations: {
@@ -56,4 +54,6 @@ public class xMessageAlert: NSObject {
             })
         }
     }
+    
 }
+
