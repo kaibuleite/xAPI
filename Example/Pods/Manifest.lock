@@ -5,10 +5,10 @@ PODS:
     - xDefine
     - xExtension
     - xWebBrowser
-  - xDefine (1.0.2)
-  - xExtension (1.0.8):
+  - xDefine (1.0.4)
+  - xExtension (1.1.1):
     - xDefine
-  - xWebBrowser (1.0.3):
+  - xWebBrowser (1.0.4):
     - xExtension
 
 DEPENDENCIES:
@@ -29,9 +29,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   xAPI: 3b20086203cc6f2efff2586d00ee328b7701faf2
-  xDefine: 0df7b51c0e6edb71ca9fd667f728699d0a7a1b12
-  xExtension: f53765a72cdb40b8dd8106f37c426d7b4084ba05
-  xWebBrowser: 9e416da67774e0de70652c021d69d45ae8ca9f63
+  xDefine: ca6c6eef825544db8b43409e66dbff05eca7ac58
+  xExtension: 70d1f6b92b268f1e36236f8be26ed86c72628a0b
+  xWebBrowser: 11868ac206c32e62624fba020be127e2c7629bcd
 
 PODFILE CHECKSUM: 1a271e0cea0b60672a6311c087116d3b5b3657a3
 
